@@ -5,10 +5,7 @@ import random
 
 def home(request):
     return render(request,'generator/home.html')
-
-def potential_client(request):
-    return render(request,'generator/potential_client.html')
-
+    
 def about(request):
     return render(request,'generator/about.html')
 
